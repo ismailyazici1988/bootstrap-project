@@ -49,7 +49,18 @@
 /*! ------------ 3- ABOUT SECTİON --------------*/
 
 /*! ------------ 4- INSTRUCTIONS --------------*/
-
+section#instructors .card {
+  transition: transform 0.5s;
+}
+section#instructors .card:hover {
+  transform: scale(1.05);
+}
+section#instructors .socials i {
+  transition: opacity 0.5s;
+}
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
 /*! ------------ 5- STUDENTS SECTION --------------*/
 
 /*! ------------ 6- COURSES SECTION --------------*/
